@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC341C7F200C4DFA00DB577E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC341C7E200C4DFA00DB577E /* AppDelegate.m */; };
+		FC341C82200C4DFA00DB577E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC341C81200C4DFA00DB577E /* ViewController.m */; };
+		FC341C85200C4DFA00DB577E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC341C83200C4DFA00DB577E /* Main.storyboard */; };
+		FC341C87200C4DFA00DB577E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC341C86200C4DFA00DB577E /* Assets.xcassets */; };
+		FC341C8A200C4DFA00DB577E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC341C88200C4DFA00DB577E /* LaunchScreen.storyboard */; };
+		FC341C8D200C4DFA00DB577E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC341C8C200C4DFA00DB577E /* main.m */; };
+		FC341C97200C4DFA00DB577E /* SideCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC341C96200C4DFA00DB577E /* SideCardTests.m */; };
+		FC341CA2200C4DFA00DB577E /* SideCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC341CA1200C4DFA00DB577E /* SideCardUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC341C93200C4DFA00DB577E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC341C72200C4DF900DB577E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC341C79200C4DF900DB577E;
+			remoteInfo = SideCard;
+		};
+		FC341C9E200C4DFA00DB577E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC341C72200C4DF900DB577E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC341C79200C4DF900DB577E;
+			remoteInfo = SideCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC341C7A200C4DF900DB577E /* SideCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC341C7D200C4DF900DB577E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC341C7E200C4DFA00DB577E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC341C80200C4DFA00DB577E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC341C81200C4DFA00DB577E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC341C84200C4DFA00DB577E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC341C86200C4DFA00DB577E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC341C89200C4DFA00DB577E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC341C8B200C4DFA00DB577E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC341C8C200C4DFA00DB577E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC341C92200C4DFA00DB577E /* SideCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC341C96200C4DFA00DB577E /* SideCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SideCardTests.m; sourceTree = "<group>"; };
+		FC341C98200C4DFA00DB577E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC341C9D200C4DFA00DB577E /* SideCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC341CA1200C4DFA00DB577E /* SideCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SideCardUITests.m; sourceTree = "<group>"; };
+		FC341CA3200C4DFA00DB577E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC341C77200C4DF900DB577E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC341C8F200C4DFA00DB577E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC341C9A200C4DFA00DB577E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC341C71200C4DF900DB577E = {
+			isa = PBXGroup;
+			children = (
+				FC341C7C200C4DF900DB577E /* SideCard */,
+				FC341C95200C4DFA00DB577E /* SideCardTests */,
+				FC341CA0200C4DFA00DB577E /* SideCardUITests */,
+				FC341C7B200C4DF900DB577E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC341C7B200C4DF900DB577E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC341C7A200C4DF900DB577E /* SideCard.app */,
+				FC341C92200C4DFA00DB577E /* SideCardTests.xctest */,
+				FC341C9D200C4DFA00DB577E /* SideCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC341C7C200C4DF900DB577E /* SideCard */ = {
+			isa = PBXGroup;
+			children = (
+				FC341C7D200C4DF900DB577E /* AppDelegate.h */,
+				FC341C7E200C4DFA00DB577E /* AppDelegate.m */,
+				FC341C80200C4DFA00DB577E /* ViewController.h */,
+				FC341C81200C4DFA00DB577E /* ViewController.m */,
+				FC341C83200C4DFA00DB577E /* Main.storyboard */,
+				FC341C86200C4DFA00DB577E /* Assets.xcassets */,
+				FC341C88200C4DFA00DB577E /* LaunchScreen.storyboard */,
+				FC341C8B200C4DFA00DB577E /* Info.plist */,
+				FC341C8C200C4DFA00DB577E /* main.m */,
+			);
+			path = SideCard;
+			sourceTree = "<group>";
+		};
+		FC341C95200C4DFA00DB577E /* SideCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC341C96200C4DFA00DB577E /* SideCardTests.m */,
+				FC341C98200C4DFA00DB577E /* Info.plist */,
+			);
+			path = SideCardTests;
+			sourceTree = "<group>";
+		};
+		FC341CA0200C4DFA00DB577E /* SideCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC341CA1200C4DFA00DB577E /* SideCardUITests.m */,
+				FC341CA3200C4DFA00DB577E /* Info.plist */,
+			);
+			path = SideCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC341C79200C4DF900DB577E /* SideCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC341CA6200C4DFA00DB577E /* Build configuration list for PBXNativeTarget "SideCard" */;
+			buildPhases = (
+				FC341C76200C4DF900DB577E /* Sources */,
+				FC341C77200C4DF900DB577E /* Frameworks */,
+				FC341C78200C4DF900DB577E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideCard;
+			productName = SideCard;
+			productReference = FC341C7A200C4DF900DB577E /* SideCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC341C91200C4DFA00DB577E /* SideCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC341CA9200C4DFA00DB577E /* Build configuration list for PBXNativeTarget "SideCardTests" */;
+			buildPhases = (
+				FC341C8E200C4DFA00DB577E /* Sources */,
+				FC341C8F200C4DFA00DB577E /* Frameworks */,
+				FC341C90200C4DFA00DB577E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC341C94200C4DFA00DB577E /* PBXTargetDependency */,
+			);
+			name = SideCardTests;
+			productName = SideCardTests;
+			productReference = FC341C92200C4DFA00DB577E /* SideCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC341C9C200C4DFA00DB577E /* SideCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC341CAC200C4DFA00DB577E /* Build configuration list for PBXNativeTarget "SideCardUITests" */;
+			buildPhases = (
+				FC341C99200C4DFA00DB577E /* Sources */,
+				FC341C9A200C4DFA00DB577E /* Frameworks */,
+				FC341C9B200C4DFA00DB577E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC341C9F200C4DFA00DB577E /* PBXTargetDependency */,
+			);
+			name = SideCardUITests;
+			productName = SideCardUITests;
+			productReference = FC341C9D200C4DFA00DB577E /* SideCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC341C72200C4DF900DB577E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = guanrukeji;
+				TargetAttributes = {
+					FC341C79200C4DF900DB577E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FC341C91200C4DFA00DB577E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC341C79200C4DF900DB577E;
+					};
+					FC341C9C200C4DFA00DB577E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC341C79200C4DF900DB577E;
+					};
+				};
+			};
+			buildConfigurationList = FC341C75200C4DF900DB577E /* Build configuration list for PBXProject "SideCard" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC341C71200C4DF900DB577E;
+			productRefGroup = FC341C7B200C4DF900DB577E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC341C79200C4DF900DB577E /* SideCard */,
+				FC341C91200C4DFA00DB577E /* SideCardTests */,
+				FC341C9C200C4DFA00DB577E /* SideCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC341C78200C4DF900DB577E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC341C8A200C4DFA00DB577E /* LaunchScreen.storyboard in Resources */,
+				FC341C87200C4DFA00DB577E /* Assets.xcassets in Resources */,
+				FC341C85200C4DFA00DB577E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC341C90200C4DFA00DB577E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC341C9B200C4DFA00DB577E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC341C76200C4DF900DB577E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC341C82200C4DFA00DB577E /* ViewController.m in Sources */,
+				FC341C8D200C4DFA00DB577E /* main.m in Sources */,
+				FC341C7F200C4DFA00DB577E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC341C8E200C4DFA00DB577E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC341C97200C4DFA00DB577E /* SideCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC341C99200C4DFA00DB577E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC341CA2200C4DFA00DB577E /* SideCardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC341C94200C4DFA00DB577E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC341C79200C4DF900DB577E /* SideCard */;
+			targetProxy = FC341C93200C4DFA00DB577E /* PBXContainerItemProxy */;
+		};
+		FC341C9F200C4DFA00DB577E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC341C79200C4DF900DB577E /* SideCard */;
+			targetProxy = FC341C9E200C4DFA00DB577E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC341C83200C4DFA00DB577E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC341C84200C4DFA00DB577E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC341C88200C4DFA00DB577E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC341C89200C4DFA00DB577E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC341CA4200C4DFA00DB577E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC341CA5200C4DFA00DB577E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC341CA7200C4DFA00DB577E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SideCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guanrukeji.SideCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC341CA8200C4DFA00DB577E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SideCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guanrukeji.SideCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC341CAA200C4DFA00DB577E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SideCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guanrukeji.SideCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SideCard.app/SideCard";
+			};
+			name = Debug;
+		};
+		FC341CAB200C4DFA00DB577E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SideCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guanrukeji.SideCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SideCard.app/SideCard";
+			};
+			name = Release;
+		};
+		FC341CAD200C4DFA00DB577E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SideCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guanrukeji.SideCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SideCard;
+			};
+			name = Debug;
+		};
+		FC341CAE200C4DFA00DB577E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SideCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guanrukeji.SideCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SideCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC341C75200C4DF900DB577E /* Build configuration list for PBXProject "SideCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC341CA4200C4DFA00DB577E /* Debug */,
+				FC341CA5200C4DFA00DB577E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC341CA6200C4DFA00DB577E /* Build configuration list for PBXNativeTarget "SideCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC341CA7200C4DFA00DB577E /* Debug */,
+				FC341CA8200C4DFA00DB577E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC341CA9200C4DFA00DB577E /* Build configuration list for PBXNativeTarget "SideCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC341CAA200C4DFA00DB577E /* Debug */,
+				FC341CAB200C4DFA00DB577E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC341CAC200C4DFA00DB577E /* Build configuration list for PBXNativeTarget "SideCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC341CAD200C4DFA00DB577E /* Debug */,
+				FC341CAE200C4DFA00DB577E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC341C72200C4DF900DB577E /* Project object */;
+}
